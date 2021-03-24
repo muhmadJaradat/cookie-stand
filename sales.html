@@ -21,6 +21,30 @@
         <section id="Locations">
 
         </section>
+
+        <form id="newLocation">
+            <fieldset>
+                <legend>
+                    Adding new location</legend>
+                <br> <br>
+                <label for="locName">Location name</label>
+                <input type="text" name="locName" id="locName" required>
+                <br> <br>
+                <label for="minCus">Minimum Customers Per Hour</label>
+                <input type="number" name="minCus" id="minCus" required  min=0>
+                <br> <br>
+                <label for="maxCus">Maximum Customers Per Hour </label>
+                <input type="number" name=" maxCus" id="maxCus" required min=0>
+                <br> <br>
+                <label for="avgCookies">Average Sold Cookies Per Hour </label>
+                <input type="text" name="number" id="avgerCookies" step="any" required min=0>
+                <br> <br>
+                <input type="submit" value="Click to add the location" id="submit" >
+
+
+
+            </fieldset>
+        </form>
     </main>
 
     <footer>
