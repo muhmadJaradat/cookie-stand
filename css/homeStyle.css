@@ -1,10 +1,16 @@
 * {
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(105, 28, 0);
 }
 
 header {
     background: #353636;
     height: 90px;
+}
+h4, h5, p.header {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: black;
 }
 
 nav {
